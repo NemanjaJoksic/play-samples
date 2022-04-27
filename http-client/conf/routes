@@ -1,0 +1,7 @@
+# Routes
+
+GET     /helloworld                 org.joksin.playsamples.httpclient.HelloController.helloworld()
+GET     /hello                      org.joksin.playsamples.httpclient.HelloController.hello(name: String)
+
+GET     /proxy/helloworld           org.joksin.playsamples.httpclient.ProxyHelloController.helloworld()
+GET     /proxy/hello                org.joksin.playsamples.httpclient.ProxyHelloController.hello(name: String)
