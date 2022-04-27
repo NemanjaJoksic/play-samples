@@ -1,0 +1,5 @@
+# Routes
+
+GET     /api/users              org.joksin.playsamples.database.UserController.getAllUsers()
+GET     /api/users/async        org.joksin.playsamples.database.UserController.getAllUsersAsync()
+POST    /api/users              org.joksin.playsamples.database.UserController.createUserAsync()
