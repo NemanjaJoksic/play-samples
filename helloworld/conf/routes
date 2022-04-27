@@ -1,0 +1,7 @@
+# Routes
+
+GET     /helloworld                 org.joksin.playsamples.helloworld.HelloController.helloworld()
+GET     /hello                      org.joksin.playsamples.helloworld.HelloController.hello(name: String)
+
+GET     /async/helloworld           org.joksin.playsamples.helloworld.HelloAsyncController.helloworld()
+GET     /async/hello                org.joksin.playsamples.helloworld.HelloAsyncController.hello(name: String)

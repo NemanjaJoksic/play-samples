@@ -1,0 +1,4 @@
+# Routes
+
+GET     /message                    org.joksin.playsamples.customexeccontext.MessageController.getMessage()
+GET     /message/sync               org.joksin.playsamples.customexeccontext.MessageController.getMessageSync()
