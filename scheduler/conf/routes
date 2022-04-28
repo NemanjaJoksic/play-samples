@@ -1,0 +1,3 @@
+# Routes
+
+POST        /jobs               org.joksin.playsamples.scheduler.JobController.scheduleJob()
