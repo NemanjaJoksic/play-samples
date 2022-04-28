@@ -203,6 +203,80 @@
 				}
 			},
 			"response": []
+		},
+		{
+			"name": "http://localhost:9000/proxy/helloworld",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:9000/proxy/helloworld",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9000",
+					"path": [
+						"proxy",
+						"helloworld"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:9000/proxy/hello?name=Nemanja",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:9000/proxy/hello?name=Nemanja",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9000",
+					"path": [
+						"proxy",
+						"hello"
+					],
+					"query": [
+						{
+							"key": "name",
+							"value": "Nemanja"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:9000/jobs",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"type\": \"messagePrinter2\",\r\n    \"initialDelay\": \"1\",\r\n    \"interval\": 2,\r\n    \"message\": \"Test message 21\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:9000/jobs",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9000",
+					"path": [
+						"jobs"
+					]
+				}
+			},
+			"response": []
 		}
 	]
 }
